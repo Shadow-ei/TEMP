@@ -1,0 +1,16 @@
+QT Note
+1.信号与槽
+2.QString
+  append()速度快
+  insert()  x.insert(x.size(), y);
+  sprintf() 已过时，改用asprintf(), arg() or QTextStream
+  prepend()开头插入,replace()
+  trimed()去掉两端空白符,simplified()去掉两端的,内部连续空白符替换成一个空格
+  startsWith(),endsWith(),contains()
+  localeAwareCompare(),compare()
+toInt(),toFloat(),toDouble(),toLong(),toLongLong()
+QList<T> 的子类有 QByteArrayList, QItemSelection, QQueue, QStringList
+支持基于下标的快访
+QLinkedList<T>链式存储，非连续不支持下标，只能迭代器访问
+QVecter<T>,分配连续内存，前中部插入产生大量数据移动，速度慢，下标，迭代器都可访问
+QList::iterator，QList::const_iterator
