@@ -4,7 +4,7 @@ lotus password
 F0841673    ruth23456
 F0841726    peter123456
 
-10.196.5.140/Public_Data
+ftp://10.196.5.140/Public_Data 賬號密碼都是工號
 
 https://pan.baidu.com/s/1-Jf_xdW0sSH8If2m4v5q7Q
 irkh
